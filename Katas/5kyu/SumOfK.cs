@@ -1,4 +1,12 @@
-﻿using System;
+﻿////////////////////////////////////////////////////////////////////////////////////////////////////////
+//FileName: SumOfK.cs
+//FileType: Visual C# Source file
+//Author : Michael Harris
+//Description : Class for CodeWars problem: Best Travel
+//Link: https://www.codewars.com/kata/55e7280b40e1c4a06d0000aa/csharp
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +16,11 @@ namespace Katas._5kyu
 {
     public static class SumOfK
     {
+
+        /// <summary>
+        /// The function returns the "best" sum of k distances less than or equal to the given limit t, 
+        /// if that sum exists, or otherwise return null
+        /// </summary>
         public static int? chooseBestSum(int t, int k, List<int> ls)
         {
 
@@ -21,10 +34,11 @@ namespace Katas._5kyu
             return MaxDistance(t, combinations); 
         }
 
-
+        /// <summary>
+        /// Creates a list of all combinations of size @size.
+        /// </summary>
         private static void GenerateCombinations(List<int> elements, int size, int index,List<int> currentCombination, List<List<int>> combinations)
         {
-            // If current combination is of size, add to list of combinations
             if(currentCombination.Count == size)
             {
                 combinations.Add(new List<int> (currentCombination));
@@ -38,7 +52,9 @@ namespace Katas._5kyu
             }
         }
 
-
+        /// <summary>
+        /// Finds sum of combination that is <= distance.
+        /// </summary>
         private static int? MaxDistance(int distance, List<List<int>> combinations)
         {
             int maxDistance = 0;

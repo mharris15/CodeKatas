@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micha\\source\\repos\\Katas\\Katas\\Katas\\Katas.csproj",
+      "projectUniqueName": "C:\\Users\\micha\\Desktop\\Programming\\Repo\\CodeKatas\\CodeKatas\\Katas\\Katas.csproj",
       "projectName": "Katas",
-      "projectPath": "C:\\Users\\micha\\source\\repos\\Katas\\Katas\\Katas\\Katas.csproj",
+      "projectPath": "C:\\Users\\micha\\Desktop\\Programming\\Repo\\CodeKatas\\CodeKatas\\Katas\\Katas.csproj",
       "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micha\\source\\repos\\Katas\\Katas\\Katas\\obj\\",
+      "outputPath": "C:\\Users\\micha\\Desktop\\Programming\\Repo\\CodeKatas\\CodeKatas\\Katas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
